@@ -1,0 +1,24 @@
+{
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnPaste": true,
+  "editor.tabSize": 2,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "vue"
+  ],
+  "editor.detectIndentation": false,
+  "vetur.validation.template": false,
+  "explorer.confirmDelete": false,
+  "todohighlight.isEnable": false,
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "git.autofetch": true,
+  "eslint.alwaysShowStatus": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "element-helper.version": "2.5",
+  "search.followSymlinks": false,
+  "files.eol": "\n"
+}

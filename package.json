@@ -1,0 +1,31 @@
+{
+  "name": "wf-web",
+  "version": "3.0.0",
+  "description": "汉得供金链平台-融资平台",
+  "author": "liliang <liang.li02@hand-china.com>",
+  "private": true,
+  "scripts": {
+    "i": "yarn",
+    "local": "vue-cli-service serve --mode local --port 11000",
+    "uat": "vue-cli-service build --mode uat",
+    "prod": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "vuePlugins": {
+    "resolveFrom": "./node_modules/@upman/dev-dependencies"
+  },
+  "dependencies": {
+    "@upman/dependencies": "alpha"
+  },
+  "devDependencies": {
+    "@upman/dev-dependencies": "alpha"
+  },
+  "engines": {
+    "node": ">= 10.0.0",
+    "npm": ">= 6.0.0",
+    "yarn": ">= 1.12.0"
+  },
+  "browserslist": [
+    "extends @upman/browserslist-config-upman"
+  ]
+}
